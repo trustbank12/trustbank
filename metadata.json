@@ -1,0 +1,6 @@
+{
+  "name": "Trust Bank - Online Banking",
+  "description": "Official online banking platform for Trust Bank featuring account balance management, fund transfers, incoming transactions, loans, and electricity utility token recharge for Aminabibi Bulbuliya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
