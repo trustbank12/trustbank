@@ -225,7 +225,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-[#f4f7fa] text-slate-900 flex flex-col justify-between selection:bg-[#0047bb] selection:text-white font-sans">
+    <div className="min-h-screen bg-[#f4f7fa] text-slate-900 flex flex-col justify-between selection:bg-[#0047bb] selection:text-white font-sans w-full overflow-x-hidden">
       
       {/* Header with Navigation & Identity */}
       <Header
@@ -237,7 +237,7 @@ export default function App() {
       />
 
       {/* Main App Workspace */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-8 pb-24 sm:pb-8">
+      <main className="flex-1 max-w-7xl w-full mx-auto px-2.5 sm:px-6 lg:px-8 py-3.5 sm:py-8 pb-24 sm:pb-8">
         
         {activeTab === 'dashboard' && (
           <DashboardView
