@@ -16,7 +16,7 @@ export const PinModal: React.FC<PinModalProps> = ({
   onClose,
   onSuccess,
   actionTitle = 'Security PIN Authorization',
-  actionDescription = 'Enter your 4-digit security PIN (2345) to authorize this transaction.',
+  actionDescription = 'Enter your 4-digit security PIN to authorize this transaction.',
 }) => {
   const [pin, setPin] = useState<string[]>(['', '', '', '']);
   const [errorMessage, setErrorMessage] = useState<string>('');
@@ -188,7 +188,7 @@ export const PinModal: React.FC<PinModalProps> = ({
         {/* Security Subtext */}
         <div className="text-center text-[11px] text-slate-500 flex items-center justify-center gap-1">
           <ShieldCheck className="w-3.5 h-3.5 text-[#0047bb]" />
-          <span>Client PIN: 2345</span>
+          <span>256-Bit Encrypted Transaction Authorization</span>
         </div>
 
       </div>

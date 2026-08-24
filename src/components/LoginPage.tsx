@@ -82,11 +82,11 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
       </header>
 
       {/* Main Authentication Content */}
-      <main className="flex-1 flex items-center justify-center p-4 sm:p-6 lg:p-8">
+      <main className="flex-1 flex items-center justify-center p-3 sm:p-6 lg:p-8 w-full">
         <div className="w-full max-w-md">
           
           {/* Card Container */}
-          <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xl relative overflow-hidden">
+          <div className="bg-white border border-slate-200 rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-xl relative overflow-hidden w-full">
             
             {/* Top Blue Accent */}
             <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#0047bb]" />

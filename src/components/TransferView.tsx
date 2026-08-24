@@ -448,7 +448,7 @@ export const TransferView: React.FC<TransferViewProps> = ({
         onClose={() => setShowPinModal(false)}
         onSuccess={handlePinSuccess}
         actionTitle="Transfer Authorization"
-        actionDescription={`Enter your 4-digit PIN (2345) to authorize this transfer for Aminabibi Bulbuliya.`}
+        actionDescription="Enter your 4-digit security PIN to authorize this transfer for Aminabibi Bulbuliya."
       />
 
       {/* 40-Second Loading Modal - Shows ONLY 'Loading...' without percentages or countdown */}

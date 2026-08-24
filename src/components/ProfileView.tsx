@@ -233,7 +233,7 @@ export const ProfileView: React.FC<ProfileViewProps> = ({
                 </div>
                 <div className="text-right">
                   <span className="text-[10px] font-bold text-[#0047bb] bg-blue-50 px-2.5 py-0.5 rounded border border-blue-200">
-                    PIN Verified (2345)
+                    PIN Verified & Active
                   </span>
                 </div>
               </div>
